@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    background-color: #DFDFE1;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+}
+
+.header,
+.after__header {
+    background-color: #939498;
+}
+
+.header__content__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+
+.nav a {
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    border: 3px solid rgba(255,255,255, 0)
+}
+
+.nav a:hover {
+    border: 3px solid #fff;
+    
+    border-radius: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo img{
+    width: 60px;
+    margin-right: 15px;
+}
+
+.header__content__bottom{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.header__content__bottom p{
+    margin: 50px 0;
+    font-size: 24px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.header__content__bottom button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 5px solid #fff;
+}
+.header__content__bottom button:hover{
+    border: 5px solid #fff;
+    background-color: rgba(255,255,255, 0);
+}
+/*.about__content{
+    display: flex;
+    align-items: center;
+}*/
+.about__text, .about__img{
+    width: 600px;
+
+}
+.about__img{
+    background-image: url(img/clear-window.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.about__img p{
+    padding: 5px 10px;
+}
+#experience{
+    padding: 100px 0;
+    background-color: #E7E7E9;
+}
+.experience__content, .skills__content{
+    display: flex;
+    align-items: center;
+}
+.experience__content h2, .skills__content h2 {
+    font-size: 40px;
+    width: 400px;
+    text-transform: uppercase;
+}
+
+#skills{
+    background-color: #ACADB1;
+    padding: 100px 0;
+}
+
+.skills__content__about ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.skills__content__about li{
+   font-size: ;
+}
+.skills__list{
+    font-weight: bold;
+    font-size: 20px;
+}
+.skills__list__name{
+    font-size: 18px;
+    margin-top: 5px;
+}
